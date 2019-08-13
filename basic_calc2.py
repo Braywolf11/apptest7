@@ -12,7 +12,7 @@ def calc(x,y):
     print ("la suma es: ", suma)
     
    
-#main################################### ····
+#main###################################····
 
 os.system("clear")  
 print("press number 1: ")
@@ -22,3 +22,10 @@ b = int (input ("press number 2: "))
 
 
 calc(a,b)
+
+a= 3
+b = 5
+if a > b:
+    print ("El mayor es: ", a)
+else:
+    print ("El mayor es b: ", b )   
