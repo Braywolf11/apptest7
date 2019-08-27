@@ -2,7 +2,6 @@ import os
 from random import randint, uniform, random
 def AL(x,y,z):
     i = 0
-
     while i <= x:
         ansZ = randint(y , z)
         i += 1
